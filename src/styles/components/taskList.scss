@@ -1,0 +1,13 @@
+.task-list{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 3rem 1rem;
+    &__info{
+        font-size:$m-font-size;
+        margin:0;
+    }
+    &__btn{
+        @include btnStyle;
+    }
+}

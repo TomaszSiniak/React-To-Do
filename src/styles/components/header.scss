@@ -1,0 +1,10 @@
+.header{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    &__title{
+        margin: 0;
+        font-size: $l-font-size;
+        background: $primary-color;
+        text-align: center;
+        padding:2rem 0;
+    }
+}
